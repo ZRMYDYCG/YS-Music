@@ -18,10 +18,10 @@ export default defineConfig({
     VueDevTools(),
     // 配置插件
     AutoImport({
-      resolvers: [ElementPlusResolver()],
+      resolvers: [ElementPlusResolver()]
     }),
     Components({
-      resolvers: [ElementPlusResolver()],
+      resolvers: [ElementPlusResolver()]
     })
   ],
   resolve: {
@@ -34,7 +34,7 @@ export default defineConfig({
         scss: {
           // 引入 variable.scss 这样就可以在全局中使用 variable.scss 中预定义的变量了
           // 注意：给导入的路径最后加上 `;`
-          additionalData: '@import "@/assets/css/variable.scss";'
+          additionalData: '@import "@/assets/scss/variable.scss";'
         }
       }
     }

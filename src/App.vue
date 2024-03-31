@@ -1,5 +1,5 @@
 <script setup>
-import {onMounted} from "vue";
+import { onMounted } from 'vue'
 
 onMounted(() => {
   console.log(import.meta.env.BASE_URL)
@@ -10,6 +10,4 @@ onMounted(() => {
   <el-button type="primary">i am button</el-button>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
