@@ -1,0 +1,4 @@
+@import './reset.scss'; // 注意是先进行代码的重置、这个导入在前
+@import './common.scss'; // 公共样式
+@import './mixin.scss'; // 样式混入
+@import './variable.scss'; // 全局变量
