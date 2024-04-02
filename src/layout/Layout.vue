@@ -3,7 +3,9 @@
     <el-container>
       <el-aside width="200px">Aside</el-aside>
       <el-container>
-        <el-header>Header</el-header>
+        <el-header>
+          <layout-header></layout-header>
+        </el-header>
         <el-main>
           <router-view></router-view>
         </el-main>
@@ -12,6 +14,8 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import LayoutHeader from '@/layout/components/LayoutHeader/src/LayoutHeader.vue'
+</script>
 
 <style lang="scss"></style>
