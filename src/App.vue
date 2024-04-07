@@ -1,10 +1,4 @@
-<script setup>
-import { onMounted } from 'vue'
-
-onMounted(() => {
-  console.log(import.meta.env.BASE_URL)
-})
-</script>
+<script setup></script>
 
 <template>
   <router-view></router-view>

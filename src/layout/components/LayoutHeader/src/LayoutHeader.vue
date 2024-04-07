@@ -1,7 +1,7 @@
-<script setup></script>
-
 <template>
-  <div class="LayoutHeader"></div>
+  <div></div>
 </template>
 
-<style scoped lang="scss"></style>
+<script setup></script>
+
+<style></style>
